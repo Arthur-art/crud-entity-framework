@@ -31,6 +31,17 @@ namespace CrudEntityFramework.Controllers
             return Ok(message);        
         }
 
+        [HttpGet("{id}")]
+        public ActionResult GetContact(int id) 
+        {
+            var contact = _context.Contacts.Find(id);
+
+            return Ok(new
+            {
+                Contact = contact,
+            });
+        }
+
 
     }
 }
