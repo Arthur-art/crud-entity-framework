@@ -28,7 +28,7 @@ builder.Services.AddDbContext<NoteBookContext>(options => options.UseSqlServer(b
 - Pacote de ferramentas: https://learn.microsoft.com/pt-br/ef/core/cli/dotnet
 ### Exemplos:
 
-- Pacote de ferramentas dotnet-ef
+- Pacote de ferramentas dotnet-ef:
 dotnet tool install --global dotnet-ef
 
 - Trabalhando com migrations: https://learn.microsoft.com/pt-br/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
