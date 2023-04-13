@@ -2,6 +2,8 @@
 
 namespace CrudEntityFramework.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class HomeController : ControllerBase
     {
         [HttpGet("Running")]
