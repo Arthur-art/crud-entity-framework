@@ -1,4 +1,5 @@
 # crud-entity-framework
+- Projeto básico para entender como implementar e trabalhar com entity framework;
 
 # Realizando connection string com sqlserver, trabalhando com migrations.
 
